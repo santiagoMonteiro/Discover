@@ -1,0 +1,45 @@
+/* vai aplicar as propriedades somente no primeiro filho de ul, se ele for um li */
+ul li:first-child {
+  font-weight: bold;
+}
+
+/* selecionar o n°ésimo elemento p dentro de article */
+article p:nth-of-type(1) {
+  color: blue;
+}
+
+/* selecionar o n°ésimo filho de article, se ele for p */
+article p:nth-child(1) {
+  margin: 2rem;
+}
+
+/* selecionar todos os li´s dentro de ul que são pares */
+ul li:nth-child(even) {
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* selecionar todos os li´s dentro de ul que são ímpares */
+ul li:nth-child(odd) {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* enquanto o mouse estiver sobre o elemento a */
+a:hover {
+  color: green;
+}
+
+/* quando o foco estiver no input */
+input[type="text"] {
+  border-color: red;
+}
+
+/* quando o input estiver desabilitado */
+input:disabled {
+  background-color: green;
+}
+
+/* quando o input for obrigatório para preencher */
+input:required {
+  background-color: blue;
+}
+

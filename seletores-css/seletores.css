@@ -1,0 +1,54 @@
+/* Element selector */
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Id selector */
+#title {
+  margin: 0;
+}
+
+/* class selector */
+.section {
+  display: flex;
+}
+
+/* Attribute selector */
+[title] {
+  /* elementos que tem o atributo title, atribuir tais propriedades */
+  color: red;
+}
+
+/* Pseudo-class selector */
+button:hover {
+  color: darkgreen;
+}
+
+/* selecionar mais de um elemento */
+h1, h2, h3 {
+  color: blue;
+}
+
+section .container span {
+  font-weight: bold;
+}
+
+/* aplicar aos filhos diretos */
+section > .container > span {
+  font-weight: normal;
+}
+
+/* seleciona o irmão direto do elemento a esquerda */
+h1 + p {
+  color: red;
+}
+
+/* seleciona todos os elementos irmãos do elemento a esquerda */
+h1 ~ p {
+  color: orangered;
+}
+
+/* todos os li´s que estão dentro de ul e que têm a classe "item" */
+ul > li[class="item"] {
+  padding: 2rem;
+}

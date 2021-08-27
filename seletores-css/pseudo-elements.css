@@ -1,0 +1,14 @@
+/* cria pseudo-elemento antes do´s li´s */
+li::before {
+  content: "CSS";
+}
+
+/* cria pseudo-elemento depois do´s li´s */
+li::after {
+  content: "learning css";
+}
+
+/* as primeiras linhas nos textos de tags p */
+p::first-line {
+  font-weight: bold;
+}

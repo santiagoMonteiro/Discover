@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- autocomplete vaii dar opções de completar de acordo com a opção escolhida -->
+    <!-- as opções são as que foram já utilizadas com mais frequência, de acordo com o tipo -->
+    <input type="email" autocomplete="email" />
+    <!-- só podemos ter um autofocus por página -->
+    <input type="text" autofocus />
+    <!-- o atributo disabled desabilita o input -->
+    <input type="text" value="desabilitado" disabled />
+    <!-- readonly é semelhante ao disabled -->
+    <input type="text" value="apenas leitura" readonly />
+    <!-- o atributo name é importantepara receber o dado do input no backend -->
+    <input type="email" name="email-input" id="" />
+    <!-- o atributo required torna o preenchimento do input obrigatório -->
+    <input type="text" required />
+    
+    <!-- o atributo placeholder mostra um texto auxiliador no input -->
+    <!-- placeholder não substitui label -->
+    <label for="email">E-mail</label>
+    <input type="email" name="input-email" id="email" placeholder="Digite seu email">
+  </body>
+</html>
